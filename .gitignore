@@ -1,0 +1,58 @@
+# ============================================================
+# llm-intern-prep .gitignore
+# ============================================================
+
+# ----- 模型权重（不传 GitHub，否则仓库会巨大）-----
+*.pt
+*.bin
+*.safetensors
+*.pth
+*.ckpt
+*.gguf
+*.pkl
+*.onnx
+*.npz
+
+# ----- nanoGPT 训练输出（每次 100MB+）-----
+out-*/
+out/
+ckpt*.pt
+*.train
+
+# ----- Python -----
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ----- 数据集文件（不传，文件大、可重建）-----
+data/*/train.bin
+data/*/val.bin
+data/*/meta.pkl
+
+# ----- 日志 -----
+*.log
+*.log.*
+logs/
+wandb/
+
+# ----- 系统文件 -----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----- 编辑器 -----
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# ----- 环境变量 -----
+.env
+.env.local
+
+# ----- nanoGPT 原始仓库（我们不 track 自己 clone 的代码）-----
+nanoGPT/
