@@ -1,8 +1,8 @@
 # llm-intern-prep
 
-> 5 个月冲刺 MiniMax / 智谱级 LLM 算法实习
+> 5 个月冲刺 LLM 算法实习（零基础 → 大模型算法岗）
 
-主仓库：[github.com/YOUR_GITHUB_USERNAME/llm-intern-prep](https://github.com/YOUR_GITHUB_USERNAME/llm-intern-prep)
+主仓库：[github.com/Yym11345/llm-intern-prep](https://github.com/Yym11345/llm-intern-prep)
 
 ## 📂 项目导航
 

@@ -1,9 +1,9 @@
-# 5 个月计划 · 5 个月冲 MiniMax / 智谱级大模型算法实习 · 完整方案
+# 5 个月计划 · 5 个月冲 某 LLM 独角兽 / 某 LLM 独角兽级大模型算法实习 · 完整方案
 
 ## Context（为什么写这个方案）
 
 - **学习起点**：零 LLM 经验，偏工程实现，约 2026-07-21 → 2026-12-21 共 5 个月窗口
-- **目标公司**：MiniMax（月之暗面）、智谱、Stepfun、零一万物、百川、阿里通义实验室、字节豆包、腾讯混元、蚂蚁、深度求索等
+- **目标公司**：某 LLM 独角兽、某 LLM 独角兽、某 LLM 独角兽、某 LLM 独角兽、某 LLM 独角兽、某互联网大厂 LLM 团队、某大厂 LLM 团队、某大厂 LLM 团队、某大厂 LLM 团队、某 LLM 独角兽等
 - **现状自评**：零 LLM 经验 / 偏工程实现 / 想投 "对齐/RLHF" 与 "推理优化"
 - **招聘窗口**：2026 年 11-12 月秋招补录 + 寒假实习
 
@@ -17,7 +17,7 @@
 | **LLM 后训练工程化 / Alignment Engineering**（SFT、DPO 工程化、Agent、Tool-use、评测、数据工程） | ✅ **主推 2** | 算法原理可突击，工程落地为重；与你的"对齐偏好"最近 |
 | LLM 应用 / RAG / Agent 工程师 | ✅ 兜底 | 与你偏好不完全一致，但若上面两条没冲进去，可以此作为备胎 |
 
-**结论：你列的两个偏好里，"RLHF/对齐"我会翻译成 "**后训练工程化 + Agent/Tool-use**"，保留了你喜欢的算法味道，同时避开"卷算法研究岗必死"的坑。这两个岗位在 MiniMax/智谱内部都有大量 HC，并且(更看重代码和落地)（看重代码和落地）**。
+**结论：你列的两个偏好里，"RLHF/对齐"我会翻译成 "**后训练工程化 + Agent/Tool-use**"，保留了你喜欢的算法味道，同时避开"卷算法研究岗必死"的坑。这两个岗位在 某 LLM 独角兽/某 LLM 独角兽内部都有大量 HC，并且(更看重代码和落地)（看重代码和落地）**。
 
 ---
 
@@ -27,17 +27,17 @@
 
 **为什么主推**：
 - 与你"偏工程实现"画像 100% 匹配
-- 友好：MiniMax、智谱、月之暗面、Stepfun、B 站、网易、商米的推理团队都明确接受强代码选手
+- 友好：某 LLM 独角兽、某 LLM 独角兽、某 LLM 独角兽、某 LLM 独角兽、某中型互联网、某中型互联网、某 AI 公司的推理团队都明确接受强代码选手
 - 作品集强信号：GitHub 上的 vLLM/SGLang PR、性能 benchmark、量化 tool 都被认可
 - 面试可量化：TTFT、TPOT、throughput、memory 比 paper 还好讲
 
 **目标公司列表（按可达性排序）**：
-1. **MiniMax（优先）**——工程岗招人多，2025-2026 扩招到 200+ HC
-2. **智谱 GLM 团队**——本土最友好的大厂之一
-3. **Stepfun 阶跃星辰**——独角兽中招人相对猛
-4. **阿里通义实验室 / Qwen 团队**——工程岗 HC 多，>30% 
-5. **字节豆包 Seed Infra**——招推理系统工程师，对外相对开放
-6. **蚂蚁、网易、bilibili、商米、面壁**——中等难度
+1. **某 LLM 独角兽（优先）**——工程岗招人多，2025-2026 扩招到 200+ HC
+2. **某 LLM 独角兽团队**——本土最友好的大厂之一
+3. **某 LLM 独角兽**——独角兽中招人相对猛
+4. **某互联网大厂 LLM 团队**——工程岗 HC 多，>30% 
+5. **某大厂推理平台**——招推理系统工程师，对外相对开放
+6. **某大厂 LLM 团队、某中型互联网、某中型互联网、某 AI 公司、某 LLM 独角兽**——中等难度
 
 **JD 关键词（按出现频率）**：
 `vLLM` `SGLang` `TGI` `continuous batching` `PagedAttention` `KV cache` `量化(GPTQ/AWQ/FP8)` `CUDA` `Triton` `TensorRT-LLM` `speculative decoding` `prefill-decode disaggregation`
@@ -47,16 +47,16 @@
 ### 🥈 岗 2：**LLM 后训练工程化 / Alignment Engineer**（推荐包装：SFT + DPO 工程化 + Agent/Tool-use）
 
 **为什么这是你"对齐偏好"的正确翻译**：
-- 同一类团队（智谱 GLM、MiniMax、月之暗面、DeepSeek 都叫 "Post-training" 团队），JD 写着 "RLHF" 但实际偏工程
+- 同一类团队（某 LLM 独角兽、某 LLM 独角兽、某 LLM 独角兽、某 LLM 独角兽 都叫 "Post-training" 团队），JD 写着 "RLHF" 但实际偏工程
 - 可达路径：把 SFT→DPO→Reward Model→PPO 这条链路实现 + 调优 + 评测做到极熟练，做过实际项目即可
 - 兜底方向：如果你对 RLHF 数学感到吃力，转投 "Agent/Tool-use/RAG" 同岗不同项目，依然属于 Post-training/Alignment 团队
 
 **目标公司列表**：
-1. **智谱 GLM（对齐团队）**——最容易进的本土 LLM 公司之一
-2. **MiniMax 后训练团队**——HC 多，节奏快
-3. **零一万物 / 百川 / 面壁**——本土独角兽
-4. **字节豆包对齐组**——难度中上，但 HC 大
-5. **腾讯混元、蚂蚁、京东探索研究院**——备选
+1. **某 LLM 独角兽（对齐团队）**——最容易进的本土 LLM 公司之一
+2. **某 LLM 独角兽后训练团队**——HC 多，节奏快
+3. **某 LLM 独角兽 / 某 LLM 独角兽 / 某 LLM 独角兽**——本土独角兽
+4. **某大厂对齐组**——难度中上，但 HC 大
+5. **某大厂 LLM 团队、某大厂 LLM 团队、某中型 AI 公司**——备选
 
 **JD 关键词**：
 `SFT` `DPO` `KTO` `SimPO` `RLHF/PPO` `Reward Model` `Tool-use/Tool Calling` `Function Calling` `Agent` `RAG` `LLaMA-Factory` `XTuner` `ms-swift` `Megatron-LM` `DeepSpeed` `OpenRLHF` `verl` `lm-evaluation-harness`
@@ -131,7 +131,7 @@
   - 任务：搭一个真实场景的 Agent（如论文自动综述 / 数据分析助手 / 知乎自动答题）
   - 任务：发布到 HuggingFace Spaces 或 GitHub，能直接体验
 - **W16**（11.4-11.10）：8 篇必读论文清单
-  - 任务：精读 LLaMA / Qwen / DeepSeek / RLHF 综述 / DPO / Mamba / FlashAttention / speculative decoding，每篇输出 Markdown 笔记（建议发布知乎/CSDN）
+  - 任务：精读 LLaMA / Qwen / 某 LLM 独角兽 / RLHF 综述 / DPO / Mamba / FlashAttention / speculative decoding，每篇输出 Markdown 笔记（建议发布知乎/CSDN）
 - **W17**（11.11-11.17）：刷题冲击
   - 任务：LeetCode hot 100 + LLM 八股文（transformer/attention/位置编码/RMSNorm/SwiGLU/RoPE/KV cache/PagedAttention/投机解码）
   - 任务：每天 2 题 + 1 个八股主题
@@ -163,7 +163,7 @@
 ### 岗 2（后训练）
 - 📄 *InstructGPT*、*DPO*、*KTO*、*RLAIF*、*SimPO*、*Process Reward Model*
 - 📄 *Self-RAG*、*ReAct*、*Toolformer*、*Function Calling Survey*
-- 📄 *DeepSeek-R1 / Qwen3*（后训练范式论文）
+- 📄 *某 LLM 独角兽-R1 / Qwen3*（后训练范式论文）
 - 🔧 代码：LLaMA-Factory、ms-swift、XTuner、trl、OpenRLHF、verl
 - 🔧 评测：lm-evaluation-harness、OpenCompass、IFEval、MT-Bench
 
@@ -193,9 +193,9 @@
 ## 🧭 投递策略
 
 ### 投递节奏（**要广撒网，30 家起步**）
-- **第 1 批**（11.25-12.1）：20 家，重点：智谱、MiniMax、Stepfun、零一万物、面壁、阿里通义、字节、网易、商米
-- **第 2 批**（12.2-12.8）：10 家，重点：蚂蚁、腾讯混元、京东、bilibili、OPPO、vivo、美团
-- **兜底批**（12 月中下旬）：小米、联想、地平线、寒武纪、毫末智行、文远知行、知行合一、毫末
+- **第 1 批**（11.25-12.1）：20 家，重点：某 LLM 独角兽、某 LLM 独角兽、某 LLM 独角兽、某 LLM 独角兽、某 LLM 独角兽、某大厂通义、某大厂、某中型互联网、某 AI 公司
+- **第 2 批**（12.2-12.8）：10 家，重点：某大厂 LLM 团队、某大厂 LLM 团队、某中型互联网、某中型互联网、某硬件公司、某硬件公司、某中型互联网
+- **兜底批**（12 月中下旬）：某硬件公司、某硬件公司、某 AI 公司、某 AI 公司、某自动驾驶公司、某自动驾驶公司、某自动驾驶公司、某自动驾驶公司
 
 ### 简历钩子
 1. **必须置顶的标题**：`大模型算法工程师（推理优化 / 后训练方向）`
@@ -226,7 +226,7 @@
 
 - **路径 A**：收缩为 "Agent / Tool-use / RAG 算法工程师"，仍属于 Post-training 团队 JD 范围
 - **路径 B**：收缩为 "数据/评测工程师"，切入大模型团队
-- **路径 C**：投递大厂的 LLM infra 团队（如阿里 PAI、字节 ML 平台、腾讯 Angel）
+- **路径 C**：投递大厂的 LLM infra 团队（如某大厂 ML 平台、某大厂 ML 平台、某大厂 ML 平台）
 
 如果 W18（11 月中）简历还没 ready：
 - 主动出击，给每家目标公司 5 个组发冷启动信，不要等 JD 完美
@@ -338,7 +338,7 @@
 | 9 | *EAGLE / EAGLE-2* | 投机解码 next-token 预测 | draft model 训练、accept 策略 |
 | 10 | *Medusa* | 多 head 并行投机 | tree attention、accept 树 |
 | 11 | *DistServe / Splitwise* | prefill-decode disaggregation | 双 stage 调度、token-level |
-| 12 | *DeepSeek-V3* 推理 | MoE + FP8 + MLA | expert parallelism、MLA KV cache |
+| 12 | *某 LLM 独角兽-V3* 推理 | MoE + FP8 + MLA | expert parallelism、MLA KV cache |
 | 13 | *Qwen2 / Qwen2.5 Technical Report* | dense 模型推理优化 | GQA、YaRN 长文 |
 
 ### P1（略读 + 会讲核心贡献）
@@ -346,9 +346,9 @@
 - *LoRA / QLoRA*（虽不是推理，但面试常考）
 - *KV cache compression*（H2O / Scissorhands / StreamingLLM）
 - *Linear attention 系列*（Mamba / RWKV / RetNet）
-- *Differential Attention / MLA*（DeepSeek）
+- *Differential Attention / MLA*（某 LLM 独角兽）
 - *Speculative decoding 综述*（Leviathan et al.）
-- *MoE inference*（DeepSeek-V3、Mixtral serving paper）
+- *MoE inference*（某 LLM 独角兽-V3、Mixtral serving paper）
 
 ### 不需要读
 - 全量 RLHF paper（除非面岗 2）
@@ -422,7 +422,7 @@
 
 ### 模块八：系统设计（3 题）
 48. 设计一个 production-grade LLM 推理服务（SLO、调度、配额、监控）
-49. 一个 64 卡 A100 集群怎么部署 671B 的 DeepSeek-V3
+49. 一个 64 卡 A100 集群怎么部署 671B 的 某 LLM 独角兽-V3
 50. 突发流量（峰值 10x）下的推理容灾方案
 
 ---
@@ -628,14 +628,14 @@ Subject: 实习申请 - 大模型推理优化方向 - [姓名] - [学校]
 
 ### 排除法推理（为什么不要别的）
 
-❌ **llama.cpp（C++）**：C++ 不在岗 1 主流 JD 中，MiniMax/智谱工程岗 JD 多写"Python + PyTorch + CUDA"。C++ 写 tokenizer / KV cache / quantization 是好的，但 ROI 比 vLLM 低
+❌ **llama.cpp（C++）**：C++ 不在岗 1 主流 JD 中，某 LLM 独角兽/某 LLM 独角兽工程岗 JD 多写"Python + PyTorch + CUDA"。C++ 写 tokenizer / KV cache / quantization 是好的，但 ROI 比 vLLM 低
 - **可选保留场景**：如果 W3-W4 发现自己对低层 GPU 内存布局有强烈兴趣，再回头读 llama.cpp 的 KV cache 部分
 
 ❌ **flash-attention**：kernel 级项目，含大量 CUDA C++ 和 template meta-programming。**对零基础 W1-W2 阶段过早**
 - **可选保留场景**：W5 之后，作为项目 B 的延伸读 kernel 部分即可
 
 ❌ **SGLang**：太新（2024 起），仓库迭代频繁，且结构不如 vLLM 稳定（社区反馈）。对刚转 LLM 的人不友好
-- **可选保留场景**：投 MiniMax / Stepfun 等公司可作为 W6-W8 的第二项目补充
+- **可选保留场景**：投 某 LLM 独角兽 / 某 LLM 独角兽 等公司可作为 W6-W8 的第二项目补充
 
 ❌ **TGI**：Rust 实现，需要 Rust 基础。岗 1 招聘 JD 几乎不要求 Rust
 
@@ -909,7 +909,7 @@ mini_vllm/
 - 重点章节：§3 算法
 - 重点问题：FlashAttention 与 PagedAttention 怎么结合？
 
-**论文 3**：*DeepSeek-V3 Technical Report*（节选推理部分）
+**论文 3**：*某 LLM 独角兽-V3 Technical Report*（节选推理部分）
 - 重点章节：关于 MLA、FP8、MoE inference
 
 **论文阅读技巧——第一性原理角度**：
