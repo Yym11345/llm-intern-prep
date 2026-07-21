@@ -1,7 +1,7 @@
-# 🚀 llm-intern-prep · 5 个月冲刺 MiniMax / 智谱级 LLM 算法实习
+# 🚀 llm-intern-prep · 5 个月冲刺 LLM 算法实习
 
-> 双非 CS 硕士 · 5 个月从零基础到 LLM 推理优化岗  
-> 目标岗位：**大模型推理优化工程师** / 后训练工程化  
+> 5 个月从零基础到 LLM 算法岗  
+> 目标岗位：大模型推理优化工程师 / 后训练工程化  
 > 投递窗口：2026.11 - 2026.12
 
 📍 **当前状态**：W1 第 2-3 天（5 个月计划的 9%）
@@ -25,7 +25,7 @@
 02-mini-vllm/       ← Project B：vLLM 三模块精读 + my_mini_vllm 手敲
 03-quantization/    ← W7 量化专题
 04-finetune/        ← W9-W12 后训练工程化
-blog/posts/         ← 公开技术博客（双非最强简历加成）
+blog/posts/         ← 公开技术博客（强化作品集）
 docs/               ← GitHub Pages 渲染用（可选）
 ```
 
@@ -42,11 +42,11 @@ docs/               ← GitHub Pages 渲染用（可选）
 ## 🚀 快速开始
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/llm-intern-prep.git
+git clone https://github.com/Yym11345/llm-intern-prep.git
 cd llm-intern-prep
 cat PLAN.md
 ```
 
 ---
 
-<sub>📍 双非研二计算机硕士 · 5 个月冲刺 LLM 算法岗实习 · 每个 commit 都是进步</sub>
+<sub>📍 5 个月冲刺 LLM 算法岗实习 · 每个 commit 都是进步</sub>
